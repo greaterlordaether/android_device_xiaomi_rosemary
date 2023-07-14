@@ -122,6 +122,11 @@ persist.vendor.max.brightness=500
 ro.vendor.colorpick_adjust=true
 ro.vendor.cabc.enable=true
 
+# Colors
+persist.sys.sf.color_saturation=1.1
+persist.sys.sf.color_mode=9
+persist.sys.sf.native_mode=2
+
 # FM Radio
 persist.vendor.connsys.fm_chipid=mt6631
 
