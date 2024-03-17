@@ -284,6 +284,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libstagefright_foundation-v33
 
+# Preopt critical applications
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    Settings \
+    SystemUI \
+    GoogleDialer
+
 # Neural Networks
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.0.vendor \
